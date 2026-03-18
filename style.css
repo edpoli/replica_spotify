@@ -1,88 +1,79 @@
 * {
-
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family:"Montserrat", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
-
-background: #F70008;
-background:linear-gradient(60deg,
-rgba(247,0,8,1),
-rgba(193,0,62,1), 
-rgba(184,0,69,1),
-rgba(160,0,100,1),
-rgba(127,2,128,1)
-);
-
-
-color: white;}
-
-
-
-
-
-
-.side {
-margin: auto;
-height: 100vh;
-width: 100px;
-
-
+  background: #f70008;
+  background: linear-gradient(
+    60deg,
+    rgba(247, 0, 8, 1),
+    rgba(193, 0, 62, 1),
+    rgba(184, 0, 69, 1),
+    rgba(160, 0, 100, 1),
+    rgba(127, 2, 128, 1)
+  );
+  color: white;
 }
 
-
-
-
-.carte {
-
-
-width: 100%;
-
-
-}
-
+/* PLAYER BAR */
 
 .barra {
-
-
-height: 10px;
-background: linear-gradient(
+  height: 6px;
+  background: linear-gradient(
     to right,
-    green 0%,
-    green 50%,
-    white 50%,
-    white 100%);
-width: 500px;
-border-radius: 50px;
+    #1db954 0%,
+    #1db954 50%,
+    rgba(255, 255, 255, 0.3) 50%,
+    rgba(255, 255, 255, 0.3) 100%
+  );
+  width: 100%;
+  max-width: 400px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
 }
 
+.barra .bi-circle-fill {
+  font-size: 10px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  color: white;
+}
 
 .volume {
-    height: 10px;
-    background: linear-gradient(
+  height: 6px;
+  background: linear-gradient(
     to right,
-    green 0%,
-    green 50%,
-    white 50%,
-    white 100%);
-width: 80px;
-border-radius: 50px;
+    #1db954 0%,
+    #1db954 50%,
+    rgba(255, 255, 255, 0.3) 50%,
+    rgba(255, 255, 255, 0.3) 100%
+  );
+  width: 80px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
 }
 
+.volume .bi-circle-fill {
+  font-size: 8px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  color: white;
+}
 
+.player-cover {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  border-radius: 4px;
+}
 
+/* CARD IMMAGINI */
 
-
-
-.barra-scroll {
-
-width: 10px;
-height: 100vh;
-background: grey;
-border-radius: 50px;
-margin-top: 0;
-margin-bottom: 0;
+.card-img-top {
+  border-radius: 8px;
 }
