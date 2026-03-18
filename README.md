@@ -1,6 +1,8 @@
 # 🎵 Replica Spotify
 
 Clone statico dell'interfaccia di Spotify, costruito con HTML e Bootstrap 5. Riproduce il layout della web app — sidebar di navigazione, griglia di card, player bar fissa in basso — come esercizio di studio su Bootstrap.
+
+
 🔗 **[Demo live](https://replica-spotify-six.vercel.app/)**
 ---
 
